@@ -2,10 +2,11 @@ Hi!
 There is algorithm to up server
 1) Init code from "./damp.sql" into console mysql2 or MySQL Workbench  
 2) clean this stopper to init "insert script"
+```
 ./index.js
-...                          👇
+                             👇
 13 require("./autocreate.js")//(100, User, Following, sequelize)
-...
+```
 
 3) run into console command "npm start"
 4) send some rest request by next urls: 
